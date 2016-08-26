@@ -1,0 +1,19 @@
+version '1.0'
+group 'com.company.project'
+
+apply plugin: 'java'
+apply plugin: 'maven'
+
+repositories {
+    mavenCentral()
+}
+
+configurations {
+}
+
+sourceSets {
+}
+
+dependencies {
+  testCompile 'junit:junit:4.11'
+}
