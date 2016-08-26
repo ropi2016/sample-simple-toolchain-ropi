@@ -12,6 +12,11 @@ configurations {
 }
 
 sourceSets {
+	test {
+        java {
+            srcDirs = ["tests"]  // Note @Peter's comment below
+        }
+    }
 }
 
 dependencies {
